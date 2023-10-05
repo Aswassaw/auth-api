@@ -43,7 +43,7 @@ describe('HTTP server', () => {
       expect(response.statusCode).toEqual(200);
       expect(responseJson.value).toEqual('Hello world 5!');
     });
-  });
+  }); 
 
   describe('when POST /users', () => {
     it('should response 201 and persisted user', async () => {
